@@ -11,7 +11,7 @@ namespace PowerArgs
     public class ArgException : Exception
     {
 
-        internal static string LastAction { get; set; }
+        public static string LastAction { get; internal set; }
 
         /// <summary>
         /// If the processing of the arguments has proceed past the stage of determining what action 
